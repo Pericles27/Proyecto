@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NH finance</title>
+    <link rel="stylesheet" href="index_stylessheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--Logo y enlaces-->
+        <nav>
+            <ul class="navegador">
+                <li>
+                    <a href="index.html" id="Logo">NH finance</a>
+                </li>
+                <li>
+                    <a href="productos.html" class="links">Productos Y servicios</a>
+                </li>
+                <li>
+                   <a href="historia.html" class="links"> Historia</a> 
+                </li>
+                <li>
+                    <a href="#contacto" class="links">contacto</a>
+                </li>
+                <li>
+                    <a href="otros.html" class="links">otros</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <!--Texto + graficos-->
+        <section>
+
+            <article class="tab">
+                <table id="tabla">
+                    <tr class="titulo">
+                        <td>Activos</td>
+                        <td>Ventajas</td>
+                        <td>Rendimiento estimado</td>
+                    </tr>
+                    <tr>
+                        <td>criptomonedas</td>
+                        <td>Acceda a al maravilloso mundo de las criptomonedas,
+                            invirtiendo en nuestros fondos especializados.<br> Con nuestra ayuda
+                            podra minimizar las perdidas y podra maximizar sus ganancias, en el mercado más volatil
+                            del mundo.
+                        </td>
+                        <td>+15% Al año</td>
+                    </tr>
+                    <tr>
+                        <td>Stocks</td>
+                        <td>
+                            Acceda a los mercados mas importantes del mundo de la mano de nuestros especialistas.
+                            <br>Podrá invertir en empresas de gran reputacion y aumentar poco a poco su dinero.
+                        </td>
+                        <td>+5% al año</td>
+                    </tr>
+                    <tr>
+                        <td>Bonos</td>
+                        <td>
+                            Invierta a largo plazo con nuestras opciones de bonos del tesoro.
+                        </td>
+                        <td>+2% al año</td>
+                    </tr>
+                </table>
+            </article>    
+            <article class="txt">
+                <h2>Soluciones financieras</h2>
+                <p>
+                    Con varios años de experiencia en los mercados de capitales, NH Finance a logrado ganarse
+                    una gran reputacion entre los grandes fondos de inversión. A través de nuestros diversos productos
+                    y opciones financieras usted podra aumentar su capital y realizar inversiones mas seguras.
+                    <br>
+                    Nuestros especialistas se encargaran de manejar su capital y que usted solo se tenga que preocupar 
+                    por disfrutar de los beneficios.
+                </p>
+            </article>
+            <aside id="imagen">
+                <!--Imagen-->
+                <img src="imagenes/imagepatron.jpeg" alt="Gráfico financiero">
+            </aside>
+            <article class="texto">
+                <h2>
+                    ¿Por qué elegir NH finance?
+                </h2>
+                <p>
+                   comenzar a invertir en los mercados puede ser un gran dolor de cabeza y un gran riesgo para las personas
+                   inexpertas. A menudo se cometen errores facilmente evitables, que derivan en grandes perdidas y estas
+                   generan mucho estres. <br>Con NH Finance
+                   nuestra amplia experiencia en los mercados y una gran reputacion, ganada a traves de los años, sus inversiones 
+                   podran llegar a buen puerto.
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer id="foot">
+        <!--Informacion de la pagina y enlaces de contacto y compartir-->
+        <h1>
+            Inicie su camino en el mundo de las inversiones:
+        </h1>
+        <form id="contacto" action="">
+            <fieldset>
+                <Legend>Contacto</Legend>
+                <label for="nombre">nombre</label>
+                <input type="text"name="nombre" placeholder="Ingresa tu nombre" required>
+                <br><br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="Apellido" placeholder="Ingresa tu apellido" required>
+                <br><br>
+                <label for="Mail">Correo electronico</label>
+                <input type="email" name="Mail" placeholder="Ingresa tu correo electronico" required>
+                <br><br>
+                <label for="noticias">Terminos y Condiciones: </label><br>
+                <div>Acepto recibir noticias y ofertas de NH finance: 
+                    <input type="checkbox" name="noticias" value="1" required>
+                </div>
+                <div>
+                    Acepto terminos y condiciones de NH finance:
+                    <input type="checkbox" name="noticias" value="2" required>
+                </div>
+                <br><br>
+                <label for="temas"> Seleccione que informacion desea recibir:
+                </label>
+                <select name="temas">
+                    <option value="L">criptomonedas</option>
+                    <option value="M">Stocks</option>
+                    <option value="S">Bonos</option>
+                </select>
+                <br><br>
+                <input type="submit">
+                <input type="reset">
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
