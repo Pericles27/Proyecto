@@ -36,7 +36,7 @@
                    <a href="historia.html" class="links"> Historia</a> 
                 </li>
                 <li>
-                    <a href="#contacto" class="links">contacto</a>
+                    <a href="#foot" class="links">contacto</a>
                 </li>
                 <li>
                     <a href="otros.html" class="links">otros</a>
@@ -64,7 +64,7 @@
                         </article>
                         <aside id="imagen">
                             <!--Imagen-->
-                            <img src="imagenes/imagepatron.jpeg" alt="Gráfico financiero">
+                            <img src="imagenes/imagepatron.jpeg" alt="Gráfico financiero" class="img-thumbnail">
                         </aside>
                     </div>
                     <div class="col-md-6">
@@ -121,43 +121,73 @@
         </section>
     </main>
     <footer id="foot">
-        <!--Informacion de la pagina y enlaces de contacto y compartir-->
-        <h1>
-            Inicie su camino en el mundo de las inversiones:
-        </h1>
-        <form id="contacto" action="">
-            <fieldset>
-                <Legend>Contacto</Legend>
-                <label for="nombre">nombre</label>
-                <input type="text"name="nombre" placeholder="Ingresa tu nombre" required>
-                <br><br>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="Apellido" placeholder="Ingresa tu apellido" required>
-                <br><br>
-                <label for="Mail">Correo electronico</label>
-                <input type="email" name="Mail" placeholder="Ingresa tu correo electronico" required>
-                <br><br>
-                <label for="noticias">Terminos y Condiciones: </label><br>
-                <div>Acepto recibir noticias y ofertas de NH finance: 
-                    <input type="checkbox" name="noticias" value="1" required>
+        <div class="container">
+            <h1>
+                Inicie su camino en el mundo de las inversiones:
+            </h1>
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+              Abrir formulario
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Formulario de contacto</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    <form id="contacto" action="">
+                        <fieldset>
+                            <Legend>Contacto</Legend>
+                            <label for="nombre">nombre</label>
+                            <input type="text"name="nombre" placeholder="Ingresa tu nombre" required>
+                            <br><br>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="Apellido" placeholder="Ingresa tu apellido" required>
+                            <br><br>
+                            <label for="Mail">Correo electronico</label>
+                            <input type="email" name="Mail" placeholder="Ingresa tu correo electronico" required>
+                            <br><br>
+                            <label for="noticias">Terminos y Condiciones: </label><br>
+                            <div>Acepto recibir noticias y ofertas de NH finance: 
+                                <input type="checkbox" name="noticias" value="1" required>
+                            </div>
+                            <div>
+                                Acepto terminos y condiciones de NH finance:
+                                <input type="checkbox" name="noticias" value="2" required>
+                            </div>
+                            <br><br>
+                            <label for="temas"> Seleccione que informacion desea recibir:
+                            </label>
+                            <select name="temas">
+                                <option value="L">criptomonedas</option>
+                                <option value="M">Stocks</option>
+                                <option value="S">Bonos</option>
+                            </select>
+                            <br><br>
+                            <input type="submit">
+                            <input type="reset">
+                        </fieldset>
+                    </form>
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                  
                 </div>
-                <div>
-                    Acepto terminos y condiciones de NH finance:
-                    <input type="checkbox" name="noticias" value="2" required>
-                </div>
-                <br><br>
-                <label for="temas"> Seleccione que informacion desea recibir:
-                </label>
-                <select name="temas">
-                    <option value="L">criptomonedas</option>
-                    <option value="M">Stocks</option>
-                    <option value="S">Bonos</option>
-                </select>
-                <br><br>
-                <input type="submit">
-                <input type="reset">
-            </fieldset>
-        </form>
+              </div>
+            </div>
+            
+          </div>
     </footer>
 </body>
 </html>

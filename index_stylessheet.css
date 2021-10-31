@@ -146,10 +146,13 @@ form{
     margin-right: 10%;
 }
 #foot{
-    grid-area: d;
     width: 100%;
     height: fit-content;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: 1;
+    background-color:#addfd6 ;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    text-align: center;
 }
