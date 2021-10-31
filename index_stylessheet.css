@@ -17,9 +17,6 @@ p{
     font-weight: bolder;
 }
 body{
-    display: grid;
-    grid-template-areas: "head head head" "texto1 texto1 tabla" "img img tabla" "texto2 texto2 tabla" 
-    "d d d";
     background-color: #addfd6;
 }
 @keyframes aparecer {
@@ -77,34 +74,34 @@ nav{
 }
 /*main*/
 main{
-    padding-top: 100px;
+    padding-top: 120px;
+    width: 100%;
     background-color: #addfd6 ;
     animation-duration: 3s;
     animation-name: aparecer;
     animation-iteration-count: 1;
 }
 .txt{
-    width: 50%;
+    width: 100%;
     margin:1.5%;
     padding:1% 5% 1% 5%;
     border: 1px black solid;
     background-color: whitesmoke;
-    grid-area: texto1;
     transform: skewX(-4deg);
 }
 .texto{
-    width: 50%;
+    width: 100%;
     margin:1.5%;
     padding:1% 5% 1% 5%;
     border: 1px black solid;
     background-color: whitesmoke;
-    grid-area: texto2;
     transform: skewX(4deg);
 }
 #imagen{
-    width: 50%;
+    width: 100%;
     margin:1% 0.5% 1% 2.5%;
     padding:1% 5% 1% 5%;
+    margin-top: 5%;
 }
 #imagen :hover{
     transform: scale(1.2);
@@ -112,7 +109,6 @@ main{
 img{
     width: 70%;
     border: solid black 2px;
-    grid-area: img;
     transition: transform 2s;
 }
 
@@ -120,7 +116,7 @@ table{
     border: black solid;
     margin-left: 1%;
     margin-bottom: 10%;
-    height: 750px;
+    height: 500px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
     background-color: whitesmoke;
