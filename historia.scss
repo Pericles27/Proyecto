@@ -1,0 +1,25 @@
+@import "bases.scss";
+/*main*/
+main{
+    padding-top: 110px;
+}
+.uno {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    background-color: whitesmoke;
+    clear: both;
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 3%;
+}
+#fot{
+    width: 40%;
+    border: black 1px solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+ 
+ 

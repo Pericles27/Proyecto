@@ -100,4 +100,8 @@ nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
+main {
+  background-color: #addfd6;
+}
 /*# sourceMappingURL=bases.css.map */

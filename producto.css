@@ -101,6 +101,10 @@ nav {
       flex-wrap: wrap;
 }
 
+main {
+  background-color: #addfd6;
+}
+
 /*main*/
 main {
   padding-top: 120px;
