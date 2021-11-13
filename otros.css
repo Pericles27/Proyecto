@@ -112,5 +112,15 @@ main {
 
 main {
   background-color: #addfd6;
+  padding-top: 110px;
+  padding-bottom: 7%;
+}
+
+.txt {
+  width: 100%;
+  margin: 2.5%;
+  padding: 1% 5% 1% 5%;
+  border: 1px black solid;
+  background-color: whitesmoke;
 }
 /*# sourceMappingURL=otros.css.map */
