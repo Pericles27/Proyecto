@@ -15,3 +15,12 @@ main{
     border: 1px black solid;
     background-color: whitesmoke;
 }
+img{
+    width: 30%;
+    float: left;
+    display: flex;
+}
+.texto{
+    float: right;
+    width: 60%;
+}

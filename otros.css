@@ -123,4 +123,17 @@ main {
   border: 1px black solid;
   background-color: whitesmoke;
 }
+
+img {
+  width: 30%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.texto {
+  float: right;
+  width: 60%;
+}
 /*# sourceMappingURL=otros.css.map */
